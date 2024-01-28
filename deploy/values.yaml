@@ -94,7 +94,7 @@ volumeMounts: []
 # - name: foo
 #   mountPath: "/etc/foo"
 #   readOnly: true
-initialDelaySeconds: 5
+#initialDelaySeconds: 5
 nodeSelector: {}
 
 tolerations: []
