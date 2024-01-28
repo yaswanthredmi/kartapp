@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: devopsjfrog18.jfrog.io/ekart1-docker/ekart:1.0.0
+ # repository: devopsjfrog18.jfrog.io/ekart1-docker/ekart:1.0.0
+  repository: docker.io/vasusav/ekart:latest
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
