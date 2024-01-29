@@ -14,7 +14,7 @@ image:
 imagePullSecrets: []
 service:
   type: LoadBalancer
-  port: 8070
+  port: 80
 nameOverride: ""
 fullnameOverride: ""
 
